@@ -67,13 +67,12 @@ const CreatePost = () => {
     const handleSurpriseMe=()=>{
         const randomPrompt = getRandomPrompt(form.prompt);
         setForm({ ...form,prompt: randomPrompt})
-
     }
 
   return (
     <section className='max-w-7xl mx-auto'>
         <div>
-            <h1 className='font-extrabold text-[#222328] text-[32px]'>
+            <h1 className='font-extrabold text-[#f1f1f1] text-[32px]'>
                Create
             </h1>
             <p className='mt-2 text-[#666e75] text-[14px] max-w[500px]'>
@@ -130,7 +129,7 @@ const CreatePost = () => {
                 <button
                 type='button'
                 onClick={generateImage}
-                className=" text-white bg-green-700 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+                className=" text-white bg-green-800 font-medium rounded-md text-sm w-full sm:w-auto px-5 py-2.5 text-center"
                 >
                     {
                         generatingImg ? 'Generating...': 'Generate'
