@@ -4,7 +4,7 @@ const connectDB = (url) => {
   mongoose.set('strictQuery', true);
 
   mongoose.connect(url)
-    .then(() => console.log('MongoDB connected'))
+    .then(() => console.log('MongoDB connected good'))
     .catch((err) => {
       console.error('failed to connect with mongo');
       console.error(err);
