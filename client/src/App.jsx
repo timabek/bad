@@ -8,14 +8,14 @@ const App = () => {
    <BrowserRouter>
   <header className="w-full flex justify-between items-center bg-zinc-950 sm:px-8 px-4 py-4 border-b border-b-[#e6ebf4]">
       <Link to="/">
-        <img src={logo} alt="logo" className="w-14 object-contain" />
+      <img src={logo} alt="" />
       </Link>
       <Link to='/create-post'
-      className='font-inter font-medium bg-black border border-solid border-white text-white px-4 py-2 rounded-md'>
-        TRY
+      className='font-inter font-medium bg-black border border-solid border-white text-white px-8  py-2 rounded-md'>
+        <span className='text-[22px]'>😨</span>
       </Link>
    </header>
-   <main className='sm:p-8 px-4 py-8 w-full bg-[#070b1afb] min-h-[calc(100vh-73px)]'>
+   <main className='sm:p-8 px-4 py-8 w-full bg-[#0b206cbe] min-h-[calc(100vh-73px)]'>
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/create-post' element={<CreatePost/>}/>
