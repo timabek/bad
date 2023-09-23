@@ -11,7 +11,7 @@ const App = () => {
       <img src={logo} alt="" />
       </Link>
       <Link to='/create-post'
-      className='font-inter font-medium bg-black border border-solid border-white text-white px-8  py-2 rounded-md'>
+      className='font-inter font-medium bg-black border border-solid border-white text-white px-7  py-2 rounded-md'>
         <span className='text-[22px]'>😨</span>
       </Link>
    </header>
