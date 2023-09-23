@@ -3,14 +3,6 @@ import React,{useState,useEffect} from 'react'
 
 
 const Home = () => {
-   
-
-   
-
-    
-
-    
-
   return (
     <section className='max-w-7xl mx-auto'>
         <div>

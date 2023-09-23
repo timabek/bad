@@ -58,7 +58,7 @@ const CreatePost = () => {
           setLoading(false);
         }
       }else{
-        alert('baby you have failed')
+        alert('baby you have')
       }
     }
     const handleChange=(e)=>{
