@@ -84,7 +84,7 @@ const CreatePost = () => {
            
         </div>
         
-            <div className='flex flex-col gap-5 mt-20'>
+            <div className='flex flex-col gap-4 mt-20'>
             <h1 className='font-extrabold text-[#050202] text-[32px]'>
                Про насвай 🙄 
             </h1>
