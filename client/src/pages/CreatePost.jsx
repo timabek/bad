@@ -73,33 +73,30 @@ const CreatePost = () => {
     <section className='max-w-7xl mx-auto'>
         <div>
             <h1 className='font-extrabold text-[#f1f1f1] text-[32px]'>
-               Вред сигарет 😢
+               Тамекинин зыяны 😢
             </h1>
             <p className='mt-2 text-[#d2dee7] text-[14px] max-w[500px]'>
-                нажмите на кнопку для подробной информации
+               кененирээк маалымат алууга ылдыйдагы баскычтарды басыныз
             </p>
-            <a href="https://youtu.be/M-2Xr_lhuxk?si=ftnISoXWc5uzAgFR"><button className='bg-black border border-solid border-white text-white px-4 py-2 w-full rounded-md mt-10'>Вред</button></a>
-            <a href="https://youtu.be/Oyj6YpeKMUM?si=n5u-CWzHAQNh_YH4"> <button className='bg-black border border-solid border-white text-white px-4 py-2 w-full rounded-md mt-10'>Для здоровье</button></a>
+            <a href="https://youtu.be/M-2Xr_lhuxk?si=ftnISoXWc5uzAgFR"><button className='bg-black border border-solid border-white text-white px-4 py-2 w-full rounded-md mt-10'>зыяны</button></a>
+            <a href="https://youtu.be/Oyj6YpeKMUM?si=n5u-CWzHAQNh_YH4"> <button className='bg-black border border-solid  border-white text-white px-4 py-2 w-full rounded-md mt-10'>ден соолука таасири</button></a>
             
            
         </div>
         
             <div className='flex flex-col gap-4 mt-20'>
             <h1 className='font-extrabold text-[#050202] text-[32px]'>
-               Про насвай 🙄 
+                Насвай тууралуу 🙄 
             </h1>
-         
-            <button className='bg-black border border-solid border-white text-white px-4 py-2 rounded-md mt-5'>Вред</button>
-            <button className='bg-black border border-solid border-white text-white px-4 py-2 rounded-md mt-5'>Изготовление</button>
+            <a href="https://youtu.be/b_RgV9A1tDk?si=WLjRzMLCmwdQkMJB"><button className='bg-black border border-solid border-white w-full text-white px-4 py-2 rounded-md mt-5'>зыяны</button></a>
+            <a href="https://youtu.be/jw3CA9mPegY?si=mIwxGhvtGh1I5qvB"> 
+            
+            <button className='bg-black w-full border border-solid border-white text-white px-4 py-2 rounded-md mt-5'>жасалышы</button></a>
             </div>
-
-          
-         
-
-       
-
     </section>
   )
 }
-
 export default CreatePost
+
+
+
