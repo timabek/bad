@@ -93,6 +93,15 @@ const CreatePost = () => {
             
             <button className='bg-black w-full border border-solid border-white text-white px-4 py-2 rounded-md mt-5'>жасалышы</button></a>
             </div>
+            <div className='flex flex-col gap-4 mt-20'>
+            <h1 className='font-extrabold text-[#942828] text-[32px]'>
+                Зордук зомбулук ✊
+            </h1>
+            <a href="https://youtu.be/_fivvsBirtY?si=TiBCGVCTYRmDo9qw"><button className='bg-black border border-solid border-white w-full text-white px-4 py-2 rounded-md mt-5'>Мектеп</button></a>
+            <a href="https://youtu.be/wxi0bUkb0bE?si=saDKUTztlKQmNyUK"> 
+            
+            <button className='bg-black w-full border border-solid border-white text-white px-4 py-2 rounded-md mt-5'>Уй було</button></a>
+            </div>
     </section>
   )
 }
